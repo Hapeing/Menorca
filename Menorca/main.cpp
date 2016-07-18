@@ -1,10 +1,12 @@
 #include <SFML/Graphics.hpp>
+#include "Game.h"
 
 
 int main()
 {
 	_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
 	sf::RenderWindow window(sf::VideoMode(600, 400), "Hello world");
+	Game game;
 
 	sf::Clock clock;
 	float dt = 0;
@@ -22,9 +24,7 @@ int main()
 
 		dt = clock.restart().asSeconds();
 
-
-
-
+		game.update(dt);
 
 		window.clear();
 		window.display();
