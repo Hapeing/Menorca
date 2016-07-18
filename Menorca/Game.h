@@ -1,6 +1,6 @@
 #ifndef GAME_H
 #define GAME_H
-#include <SFML\Graphics.hpp>
+#include "Hvector.h"
 
 class Game : public sf::Drawable
 {

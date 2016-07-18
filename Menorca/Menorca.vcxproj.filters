@@ -21,9 +21,18 @@
     <ClCompile Include="Game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Hvector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hvector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helement.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
