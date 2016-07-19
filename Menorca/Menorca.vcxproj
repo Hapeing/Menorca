@@ -147,14 +147,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BoundingBoxHandler.cpp" />
     <ClCompile Include="Game.cpp" />
-    <ClCompile Include="Hvector.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="SpriteHandler.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BoundingBox.h" />
+    <ClInclude Include="BoundingBoxHandler.h" />
     <ClInclude Include="Game.h" />
-    <ClInclude Include="Helement.h" />
-    <ClInclude Include="Hvector.h" />
+    <ClInclude Include="SpriteHandler.h" />
+    <ClInclude Include="Structs.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

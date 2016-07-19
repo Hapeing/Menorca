@@ -21,7 +21,10 @@
     <ClCompile Include="Game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Hvector.cpp">
+    <ClCompile Include="SpriteHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingBoxHandler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,10 +32,16 @@
     <ClInclude Include="Game.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Hvector.h">
+    <ClInclude Include="Structs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Helement.h">
+    <ClInclude Include="SpriteHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingBoxHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingBox.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
