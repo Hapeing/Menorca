@@ -14,12 +14,12 @@ private:
 
 	void addSize(int slots = 5);
 
-	//removes the last slots in the array
-	//returns true if no elements where removed
-	bool removeSize(int slots = 5);
+	//Removes the last x slots in the array.
+	//Returns nr of elements removed.
+	int removeSize(int slots = 5);
 
 public:
-	SpriteHandler(sf::Sprite sprite, int slots = 5);
+	SpriteHandler(int slots = 5);
 	virtual ~SpriteHandler();
 
 	//returns the index
@@ -28,8 +28,8 @@ public:
 	int getNrOfElements() const { return this->nrOfElements; }
 	int getNrOfSlots() const { return this->nrOfSlots; }
 
-	//sets size to current number of Elements
-	//returns true if size was changed
+	//Sets size to current number of Elements.
+	//Returns true if size WAS changed.
 	bool Compress();
 };
 

@@ -1,13 +1,15 @@
 #ifndef GAME_H
 #define GAME_H
 #include "SpriteHandler.h"
+#include "BoundingBoxHandler.h"
 
 class Game : public sf::Drawable
 {
 private:
-
 	virtual void draw(sf::RenderTarget &target, sf::RenderStates states) const;
 	sf::RectangleShape testRect;
+	BoundingBoxHandler BBHandler;
+	SpriteHandler SHandler;
 
 public:
 	Game();
