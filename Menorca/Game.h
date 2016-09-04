@@ -7,7 +7,6 @@ class Game : public sf::Drawable
 {
 private:
 	virtual void draw(sf::RenderTarget &target, sf::RenderStates states) const;
-	sf::RectangleShape testRect;
 	BoundingBoxHandler BBHandler;
 	SpriteHandler SHandler;
 

@@ -46,7 +46,7 @@ void BoundingBox::update()
 {
 	this->outline.setPosition(this->pos.x, this->pos.y);
 	this->outline.setSize(sf::Vector2f(this->size.x, this->size.y));
-	this->outline.setFillColor(sf::Color(0, 255, 0, 0));
+	this->outline.setFillColor(sf::Color(0, 0, 0, 0));
 	this->outline.setOutlineThickness(-5);
 	this->outline.setOutlineColor(sf::Color(255, 0, 255));
 }

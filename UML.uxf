@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>378</x>
+      <y>117</y>
+      <w>90</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>Game</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>225</x>
+      <y>252</y>
+      <w>144</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>BoundingBoxHandler</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>243</x>
+      <y>360</y>
+      <w>90</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>BoundingBox</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>513</x>
+      <y>252</y>
+      <w>90</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>SpriteHandler</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>405</x>
+      <y>135</y>
+      <w>171</w>
+      <h>135</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0;170.0;80.0;170.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>297</x>
+      <y>189</y>
+      <w>135</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>130.0;20.0;10.0;20.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>288</x>
+      <y>270</y>
+      <w>27</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>972</x>
+      <y>171</y>
+      <w>279</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>Game
+-
+2D int array (grid)
+int array enemies
+int array allies
+int array items
+probably more int arrays</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
